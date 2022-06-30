@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+</head>
+<body bgcolor="mintcream">
+	<table bgcolor="lightgreen" width="50%" align="center" style="margin-top: 65px;">
+		<tr>
+			<td><p style="  color: green;font-size: 54px;background-color: mintcream;border: double darkgreen;border-radius: 10px;padding: 2px;text-align: center;margin-top: 0px;">Feedback Form</p></td>
+		</tr>
+		<tr>
+			<td>
+				<label style="padding-right: 103px;
+    padding-left: 47px;">To:</label>
+		<input list="to">
+		<datalist id="to">
+			<option value="Principle">
+			<option value="Manager">
+			<option value="Trainer">
+		</datalist>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="N" style="padding-left: 50px;
+padding-right: 78px;">Name:</label>
+				<input type="text" id="N" placeholder="Enter Full Name." style="width: 500px;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="E" style="padding-left: 50px;
+padding-right: 78px;">Email:</label>
+				<input type="email" id="E" placeholder="sample@example.com" style="width: 500px;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="F" style="padding-left:50px;padding-right: 55px;vertical-align: top;">Feedback:</label>
+				<textarea id="F" placeholder="Please type your comment." style="width:400px;height: 55px;"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form>
+					<input type="submit" value="submit" style="margin-left: 360px;">
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
